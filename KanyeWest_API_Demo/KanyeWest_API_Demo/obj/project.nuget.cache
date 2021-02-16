@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qEkuA7DHgH8/XzTUoS5xpMhKg5CYffxSLy/fumnh0ab9ZSm7QDenGteDLtiJqQySUa7D17P1MMCf27ppnIr1Tg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\johnd\\Desktop\\TA_repo\\29_C#_API_and_JSON\\KanyeWest_API_Demo\\KanyeWest_API_Demo\\KanyeWest_API_Demo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\johnd\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
