@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JoInA7anbMlE9GqUXoJ+U4FXb/8ZquX5uE+B1QJzk4FGJT/nGbQF3dLJWy+WEfxovAjMiaWwOTZDAejVtmV6Pw==",
+  "dgSpecHash": "g2VndgHT9L04tm0bbUMy4cjr/Frk3APqgNhBLq/3bDwoEw7N6XNHJCME10gcSo6wHqMz431hlPKLxaiD33yxIA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\johnd\\Desktop\\TA_repo\\29_C#_API_and_JSON\\KanyeWest\\KanyeWest\\KanyeWest.csproj",
+  "projectFilePath": "C:\\Users\\johnd\\Desktop\\Repos\\29_API-JSON\\KanyeWest\\KanyeWest\\KanyeWest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\johnd\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
