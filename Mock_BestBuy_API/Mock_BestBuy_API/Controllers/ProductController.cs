@@ -46,7 +46,7 @@ namespace Mock_BestBuy_API.Controllers
         public void Post(Product product)
         {
             var lastProductId = _repo.GetProducts().LastOrDefault().ProductID; // In order to Insert we need a ProductID
-            product.ProductID = ++lastProductId; // and since it defaults to 0 we must get the last 1 and then (++it)
+            product.ProductID = ++lastProductId; // and since it defaults to 0 we must get the last 1 and then (++it) increment
             _repo.InsertProduct(product);
         }
        
