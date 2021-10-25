@@ -36,7 +36,7 @@ namespace OpenWeatherMap_Exercise
 
                 Console.WriteLine();
 
-                if (userInput.ToLower() == "no")
+                if (userInput.ToLower().Trim() == "no")
                 {
                     break;
                 }
