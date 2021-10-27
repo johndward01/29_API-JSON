@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zru8tjPn3vublw3bYtpdmenSIZlVScGCgAFJ6VA9X0xTyW/1GwTPW4cxwBLU93z8IXCWkxOXDSIMpbzdY9QeKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\johnd\\Desktop\\Repos\\29_API-JSON\\KanyeREST-DEMO\\KanyeREST-DEMO\\KanyeREST-DEMO.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\johnd\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\johnd\\.nuget\\packages\\restsharp\\106.12.0\\restsharp.106.12.0.nupkg.sha512"
+  ],
+  "logs": []
+}
