@@ -23,14 +23,13 @@ namespace OpenWeatherMap_Exercise
                 var weatherURL = $"https://api.openweathermap.org/data/2.5/weather?q={city_name}&units=imperial&appid={api_Key}";
                 var response = client.GetStringAsync(weatherURL).Result;
                 var formattedResponse = JObject.Parse(response).GetValue("main").ToString();
-                Console.WriteLine(formattedResponse);
-                Console.WriteLine();
-
-                Console.WriteLine("Would you like to choose a different city?");
+                Console.WriteLine($"The current Temperature is {JObject.Parse(formattedResponse).GetValue("temp")} degrees Fahrenheit");
+                AddSpaces(2);
+                Console.WriteLine("Would you like to exit?");
                 var userInput = Console.ReadLine();
-                Console.WriteLine();
+                AddSpaces(2);
 
-                if (userInput.ToLower().Trim() == "no")
+                if (userInput.ToLower().Trim() == "yes")
                 {
                     break;
                 }
@@ -38,7 +37,14 @@ namespace OpenWeatherMap_Exercise
             }
             
 
-            
+            static void AddSpaces(int numberOfSpaces)
+            {
+                while (numberOfSpaces != 0)
+                {
+                    Console.WriteLine();
+                    numberOfSpaces--;
+                }
+            }
 
         }
     }

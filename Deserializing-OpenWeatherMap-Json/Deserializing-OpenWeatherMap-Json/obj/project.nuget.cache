@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "RddGtlhvqpzVms6VXL4rqVtCbNrOXXhR7oLXcCBQ/UMpwq6ugEGdJ7HsREy8HYlnX/ARvbpmSvB6OLqGTkOZ0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\johnd\\Desktop\\Repos\\29_API-JSON\\Deserializing-OpenWeatherMap-Json\\Deserializing-OpenWeatherMap-Json\\Deserializing-OpenWeatherMap-Json.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\johnd\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
