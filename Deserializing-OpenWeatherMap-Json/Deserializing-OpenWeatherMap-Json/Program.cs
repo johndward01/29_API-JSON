@@ -30,15 +30,6 @@ namespace OpenWeatherMap_Exercise
             jsonRootObject.WeatherList.ForEach(x => PrintWeather(x));
 
 
-            static void AddSpaces(int numberOfSpaces)
-            {
-                while (numberOfSpaces != 0)
-                {
-                    Console.WriteLine();
-                    numberOfSpaces--;
-                }
-            }
-
             static void PrintWeather(Weather w)
             {
                 Console.WriteLine(w.description);
